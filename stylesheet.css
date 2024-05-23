@@ -5,9 +5,22 @@ body {
     margin-left: 25%;
     margin-right: 25%;
     vertical-align: middle;
-    width: 800px;
-    background-color: rgb(127, 150, 142);
+    max-width: 90%;
+    background-color: #7F968E;
 }
+
+hr {
+    height: 5px;
+    background-color: #fff;
+}
+
+blockquote {
+    background-color: #14362B;
+    text-align: center;
+    color: #fff;
+    padding-inline-start: 18px, 24px;
+}
+
 
 footer {
     text-align: right;
@@ -27,7 +40,15 @@ img {
 h1 {
     font-size: 84px;
     text-align: center;
-    color: rgb(20, 54, 43);
+    color: #14362B;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
+    color: #14362B;
+    text-transform: uppercase;
 }
 
 q {
@@ -40,12 +61,17 @@ cite {
     text-align: right;
 }
 
+p {
+    font-style: normal;
+    font-size: 18px;
+}
+
 
 /* TABLE */
 
 
 thead {
-    background-color: blueviolet;
+    background-color: #14362B;
     height: 45px;
     text-transform: uppercase;
     color: antiquewhite;
